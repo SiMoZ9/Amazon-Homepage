@@ -1,0 +1,137 @@
+/*TAG*/
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: #EAEDED;
+}
+
+/* TOP BAR */
+
+.amazon-logo{
+    background-color: #222F3E;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list{
+    background-color: #354758;
+    padding: 0.4rem;
+}
+
+.nav-list ul{
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.nav-list li{
+    display: inline;
+    color: #fff;
+    margin: 0;
+}
+
+.amazon-logo{
+    padding-left: 0.9rem;
+    padding-top: 0.2rem;
+}
+.amazon-logo img{
+    width: 8rem
+}
+
+/* MAIN */
+
+main{
+    background-color: #EAEDED;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#gifts .holidays {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+#gifts .holidays p{
+    margin: 0;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    background-color: #F56600;
+    color: #fff;
+}
+
+#gifts .guides{
+    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    background-image: url(assets/bg-image.png);
+    width: 100%;
+    height: 100px;
+}
+
+#gifts .guides h1, h3{
+
+    color: #fff
+}
+
+#images p{
+    text-align: left;
+    text-align: left;
+    padding: 1rem 1rem 0 1.5rem;
+}
+
+#images .image{
+    width: 304px;
+    height: 379px;
+    object-fit: cover;
+    margin: 2rem;
+    border-radius: 20px;
+    -webkit-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.2);
+}
+
+#images .img-container{
+    background-color: white;
+    width: 100%;
+    text-align: center;    
+}
+
+.title-container {
+    text-align: left;
+    padding: 1rem 1rem 0 1.5rem;
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.subtitle {
+    font-weight: 600;
+    color: #007185;
+    margin-left: 1rem;
+}
+
+.big-img{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.big-img img{
+    width: 100%;
+}
+
+.games{
+    padding-bottom: 2rem;
+}
+
+/* FOOTER */
+footer .nav-list{
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff
+}

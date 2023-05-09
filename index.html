@@ -18,8 +18,8 @@
             <img src="assets/logo.png" alt="logo">
         </div>
 
-        <nav id="nav-list">
-            <ul id="list">
+        <nav class="nav-list">
+            <ul>
                 <li>All</li>
                 <li>Today's deals</li>
                 <li>Costumer Service</li>
@@ -34,17 +34,23 @@
     <main>
         <section id="gifts">
             <div class="holidays">
-                <span>Shop All Holiday Gift Cards</span>
+                <p>Shop All Holiday Gift Cards</p>
             </div>
 
-            <div id="guides">
+            <div class="guides">
                 <h1>Holiday Gift Guides</h1>
                 <h3>Be a go-giter</h3>
             </div>
         </section>
 
         <section id="images">
-            <div>
+            
+            <div class="img-container">
+                <div class="title-container">
+                    <span class="title">Find the perfect gift</span>
+                    <span class="subtitle">Shop now</span>  
+                </div>
+
                 <img src="assets/img_1.jpg" alt="kindle" class="image">
                 <img src="assets/img_2.jpg" alt="pc" class="image">
                 <img src="assets/img_3.jpg" alt="watch" class="image">
@@ -52,20 +58,30 @@
             </div>
         </section>
 
-        <div class="big-img">
-            <img src="assets/img_9.png" alt="pets" class="big">
-            <p>Play the gifting game <span>Shop gaming</span></p>
-        </div>
-        
-        <div class="big-img">
-            <img src="assets/img_10.jpg" alt="pets" class="big">
-            <p>The sound of cheer <span>Shop Audio & Accessories</span></p>
-        </div>
+        <section class="games">
+            <div class="big-img">
+                <img src="assets/img_9.png" alt="pets" class="big">
+                <span class="title">Play the gifting game</span>
+                <span class="subtitle">Shop gaming</span>
+            </div>
+            
+            <div class="big-img">
+                <img src="assets/img_10.png" alt="pets" class="big">
+                <span class="title">The sound of cheer </span>
+                <span class="subtitle">Shop Audio & Accessories</span>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        
+        <nav class="nav-list">
+            <span>Back to top</span>
+        </nav>
+
+        <div class="amazon-logo">
+            <img src="assets/logo.png" alt="logo-footer">
+        </div>
     </footer>
 
 </body>
